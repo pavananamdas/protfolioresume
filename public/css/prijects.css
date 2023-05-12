@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'poppins', sans-serif;
+}
+body{
+    color: #fff;
+  background-image: url(../img/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+.navbar-toggler{
+    background: #0ef;
+}
+#colorlogo{
+    color: #0ef;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.loo{
+    
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.loo:hover{
+color: #0ef;
+}
+li{
+    text-decoration: none;
+}
+
+.navbar-nav a{
+    font-size: 18px;
+    transition: .3s;
+    color: #fff;
+
+    animation: slidetop .5s ease forwards;
+    animation-delay: calc(0.2s * var(--i));
+}
+.navbar-nav a:visited{
+    color: #fff;
+}
+svg:hover{
+color: black;
+}
+.navbar-nav a:hover{
+    color: #0ef;
+
+}
+
+/* ============================== *//* ============================== */
+/* ============================== *//* ============================== */
+/* ========================== *//* Projects *//* ========================== */
+/* ============================== *//* ============================== */
+/* ============================== *//* ============================== */
+.move h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: xx-large;
+    color: rgb(138, 236, 243);
+    
+}
+#main{
+    position: relative;
+    margin-top: 60px;
+  
+}
+#zoomdisplay1{
+    display: none;
+}
+#zoomdisplay2{
+    display: none;
+}
+#zoomdisplay3{
+    display: none;
+}
+#zoomdisplay4{
+    display: none;
+}
+#electric1{
+    width: 900px;
+    height: 350px;
+
+position: absolute;
+top: 230px;
+left: 300px;
+display: none;
+border-radius: 1rem;
+border: 1px solid transparent;
+backdrop-filter: blur(10px);
+box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+border-top-color: rgba(225,225,225,0.5);
+border-left-color: rgba(225,225,225,0.5);
+border-bottom-color: rgba(225,225,225,0.1);
+border-right-color: rgba(225,225,225,0.1);
+}
+#electric2{
+    width: 900px;
+    height: 400px;
+
+position: absolute;
+top: 230px;
+left: 300px;
+display: none;
+border-radius: 1rem;
+border: 1px solid transparent;
+backdrop-filter: blur(10px);
+box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+border-top-color: rgba(225,225,225,0.5);
+border-left-color: rgba(225,225,225,0.5);
+border-bottom-color: rgba(225,225,225,0.1);
+border-right-color: rgba(225,225,225,0.1);
+}
+#electric3{
+    width: 900px;
+    height: 380px;
+
+position: absolute;
+top: 230px;
+left: 300px;
+display: none;
+border-radius: 1rem;
+border: 1px solid transparent;
+backdrop-filter: blur(10px);
+box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+border-top-color: rgba(225,225,225,0.5);
+border-left-color: rgba(225,225,225,0.5);
+border-bottom-color: rgba(225,225,225,0.1);
+border-right-color: rgba(225,225,225,0.1);
+}
+#electric4{
+    width: 900px;
+    height: 400px;
+
+position: absolute;
+top: 230px;
+left: 300px;
+display: none;
+border-radius: 1rem;
+border: 1px solid transparent;
+backdrop-filter: blur(10px);
+box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+border-top-color: rgba(225,225,225,0.5);
+border-left-color: rgba(225,225,225,0.5);
+border-bottom-color: rgba(225,225,225,0.1);
+border-right-color: rgba(225,225,225,0.1);
+}
+#margin1{
+    margin-top: 30px;
+}
+.card{
+
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+    border-top-color: rgba(225,225,225,0.5);
+    border-left-color: rgba(225,225,225,0.5);
+    border-bottom-color: rgba(225,225,225,0.1);
+    border-right-color: rgba(225,225,225,0.1);
+}
+#col{
+    background-color: rgba(225,225,225,0.1);
+}
+.card:hover{
+    background: linear-gradient(to right bottom, rgba(225,225,225,0.5),rgba(225,225,225,0.3));
+    border: .1rem solid #0ef;
+
+    backdrop-filter: blur(8px);
+}
+
+h2{
+    color: #FFCC66;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 20px;
+    font-style: italic;
+    
+}
+/* style for hover */
+#changeread1{
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#changeread2{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#changeread3{
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* hover for read me */
+
+#changeread1:hover{
+    color: #0ef;
+}
+#changeread2:hover{
+    color: #0ef;
+}
+#changeread3:hover{
+    color: #0ef;
+}
+
+
+
+#floatimg1{
+    display: none;
+}
+#floatimg2{
+    display: none;
+}
+#floatimg3{
+    display: none;
+}
+#floatimg4{
+    display: none;
+}
+/* close popup */
+#close1{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#close2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#close3{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#close4{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* popup close hover */
+#close1:hover,#close2:hover,#close3:hover,#close4:hover{
+color: red;
+}
+
+/* animation  */
+
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* ====================================== */
+@media only screen and (max-width: 600px){
+ 
+
+    #zoomdisplay1{
+        display: none;
+    } 
+    #zoomdisplay2{
+        display: none;
+    } 
+    #zoomdisplay3{
+        display: none;
+    } 
+    #zoomdisplay4{
+        display: none;
+    } 
+
+
+
+
+    #changeread1{
+      display: none;
+    }
+    #changeread2{
+    display: none;
+    }
+    #changeread3{
+        display: none;
+    }
+    
+    #floatimg1{
+        display: none;
+        float: right;
+        margin-right: 30px;
+    }
+
+    #floatimg2{
+        display: none;
+        float: right;
+        margin-right: 30px;
+    }
+    #floatimg3{
+        display: none;
+        float: right;
+        margin-right: 30px;
+    }
+    #floatimg4{
+        display: none;
+        float: right;
+        margin-right: 30px;
+    }
+
+    #floatimg1:hover,#floatimg2:hover,#floatimg3:hover,#floatimg4:hover{
+        color: red;
+    }
+}
